@@ -1,0 +1,150 @@
+$primary-color: #ff66b2;
+$secondary-color: #fff;
+$text-color: #333;
+$highlight-color: #f0f0f0;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: $text-color;
+  background-color: $highlight-color;
+}
+
+
+/*.containerInicio {
+  position: absolute;
+  margin: 50px auto;
+  width: 50vw;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}*/
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  
+}
+
+.header {
+  background-color: $primary-color;
+  color: $secondary-color;
+  .logo {
+    width: 1px;
+    height: 2%;
+    
+    
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    
+    
+  }
+  nav a {
+    color: $secondary-color;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 30%;
+    
+  }
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color: $highlight-color;
+  h1 {
+    color: $primary-color;
+  }
+  img {
+    width: 200px;
+    height: auto;
+    
+  }
+  p {
+    /*width: 60%;
+    text-align: justify;
+    padding-left: 5%;*/
+    width: 50%;
+    height: 50%;
+    padding-bottom: 10%;
+    margin: 0 auto;    
+  }
+}
+
+.events {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lighten($primary-color, 30%);
+  padding: 20px;
+  img {
+    width: 300px;
+    height: auto;
+  }
+  p {
+    /*width: 60%;
+    text-align: justify;*/
+    
+    width: 50%;
+    height: 50%;
+    padding-bottom: 10%;
+    margin: 0 auto;
+  }
+}
+
+.tips {
+  background-color: $primary-color;
+  padding: 40px 20px;
+  .tip {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    margin: 1%;
+    img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    p {
+      color: $secondary-color;
+    }
+  }
+}
+
+.footer {
+  background-color: darken($primary-color, 10%);
+  color: $secondary-color;
+  text-align: left;
+
+  
+  .social-media{
+    margin-right: 50%;
+    
+    img {
+      width: 40px;
+      height: auto;
+      
+    }
+    
+  }
+  
+  .container-media {
+    text-align: center;
+  }
+  
+}
+
