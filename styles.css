@@ -10,15 +10,15 @@ body {
   background-color: #f0f0f0;
 }
 
-/*.containerInicio {
-  position: absolute;
-  margin: 50px auto;
-  width: 50vw;
-  display:flex;
-  flex-direction: column;
-  align-items: flex-end;
+.containerInicio p {
+  display: flex;
+  margin-left: 10%;
+  margin-top: -50px;
+}
+.containerInicio img {
+  margin-left: 2%;
+}
 
-}*/
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -38,6 +38,7 @@ body {
   list-style: none;
   display: flex;
   gap: 50px;
+  margin-left: 70%;
 }
 .header nav a {
   color: #fff;
