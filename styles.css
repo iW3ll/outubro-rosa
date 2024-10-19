@@ -51,7 +51,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f0f0f0;
+  background-color: #efa3c9;
 }
 .intro h1 {
   color: #ff66b2;
@@ -76,6 +76,7 @@ body {
   align-items: center;
   background-color: white;
   padding: 20px;
+  background-color: #ff66b2;
 }
 .events img {
   width: 300px;
@@ -91,7 +92,7 @@ body {
 }
 
 .tips {
-  background-color: #ff66b2;
+  background-color: #efa3c9;
   padding: 40px 20px;
 }
 .tips .tip {
@@ -110,7 +111,7 @@ body {
 }
 
 .footer {
-  background-color: #ff3398;
+  background-color: #ff66b2;
   color: #fff;
   text-align: left;
 }

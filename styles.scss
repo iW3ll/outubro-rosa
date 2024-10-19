@@ -22,6 +22,7 @@ body {
   margin-left: 10%;
   margin-top: -50px;
   
+  
  }
  img{
   margin-left: 2%;
@@ -67,8 +68,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  background-color: $highlight-color;
+  background-color: #efa3c9;
+  //background-color: $highlight-color;
   h1 {
     color: $primary-color;
   }
@@ -94,6 +95,7 @@ body {
   align-items: center;
   background-color: lighten($primary-color, 30%);
   padding: 20px;
+  background-color: #ff66b2;
   img {
     width: 300px;
     height: auto;
@@ -110,7 +112,7 @@ body {
 }
 
 .tips {
-  background-color: $primary-color;
+  background-color: #efa3c9;
   padding: 40px 20px;
   .tip {
     display: inline-block;
@@ -129,7 +131,7 @@ body {
 }
 
 .footer {
-  background-color: darken($primary-color, 10%);
+  background-color: #ff66b2;
   color: $secondary-color;
   text-align: left;
 
